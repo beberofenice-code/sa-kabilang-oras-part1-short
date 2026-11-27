@@ -7,11 +7,19 @@ On a rainy night, **Mateo** is struck by a speeding car on the street—yet wake
 Built in **Three.js + Remotion** with flat 2D bean-head cartoon characters in 13 hand-painted 3D sets, world ink outlines, depth-aware bokeh, **ElevenLabs `eleven_v4`** Tagalog narration, and BS.1770-4 mastered original romantic/mystery score and frame-locked foley.
 
 ## Watch / Download 2K Master
-- **Direct Download (Git LFS):** [sa-kabilang-oras-part1-2k.mp4](https://github.com/beberofenice-code/sa-kabilang-oras-part1-short/raw/v1.0.0/sa-kabilang-oras-part1-2k.mp4)
+- **Direct Download (Git LFS):** [sa-kabilang-oras-part1-2k.mp4](https://github.com/beberofenice-code/sa-kabilang-oras-part1-short/raw/v1.0.0/sa-kabilang-oras-part1-2k.mp4) (`135 MB`)
 - **GitHub Release:** [`v1.0.0`](https://github.com/beberofenice-code/sa-kabilang-oras-part1-short/releases/tag/v1.0.0)
 - **Video:** `1440×2560` (9:16 2K vertical), `30 fps`, `2,340` frames (`78.00 s`), H.264 `yuv420p` CRF 16 `+faststart`
-- **Audio:** AAC `48 kHz` stereo `256 kbps`, ElevenLabs `eleven_v4` Tagalog narration + original synthesized score & frame-locked SFX mastered to `-15.0 LUFS` / `<= -1.2 dBTP`
+- **Audio:** AAC `48 kHz` stereo `256 kbps`, ElevenLabs `eleven_v4` Tagalog narration + original mystery-romance score & 26 frame-locked SFX mastered to `-15.1 LUFS` / `LRA 3.1 LU` / `-1.1 dBFS` true peak (zero silences)
 - **Captions:** None (clean, text-free visuals across all 13 shots)
+
+## QA Summary
+Verified frame-by-frame with `scripts/short_qa.py` (see [`QA_REPORT.md`](QA_REPORT.md)):
+- `0` black frames
+- `0` unplanned white frames
+- `0` frozen spans (`>= 12` frames)
+- `0%` held frames (`mean diff 5.57`)
+- `0` audio silences (`-15.1 LUFS`, `-1.1 dBFS` peak)
 
 ## Project Structure
 - [`SCRIPT.md`](SCRIPT.md) — Original 205-word Part 1 Tagalog narration script
