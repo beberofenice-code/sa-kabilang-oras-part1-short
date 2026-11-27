@@ -1,0 +1,11 @@
+node_modules/
+.remotion-bundle/
+out/
+voice/
+audio/*.wav
+*.log
+.DS_Store
+text.txt
+.env
+__pycache__/
+*.pyc

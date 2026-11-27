@@ -1,0 +1,196 @@
+{
+  "fps": 30,
+  "total_frames": 2340,
+  "duration_s": 78,
+  "shots": [
+    {
+      "id": 1,
+      "a": 0,
+      "b": 226,
+      "light": "storm",
+      "set": "night_road_crash",
+      "xfade": 0
+    },
+    {
+      "id": 2,
+      "a": 226,
+      "b": 390,
+      "light": "golden",
+      "set": "empty_dawn_street",
+      "xfade": 0
+    },
+    {
+      "id": 3,
+      "a": 390,
+      "b": 570,
+      "light": "day",
+      "set": "vintage_plaza",
+      "xfade": 6
+    },
+    {
+      "id": 4,
+      "a": 570,
+      "b": 710,
+      "light": "golden",
+      "set": "clara_meeting",
+      "xfade": 6
+    },
+    {
+      "id": 5,
+      "a": 710,
+      "b": 837,
+      "light": "day",
+      "set": "old_town_lane",
+      "xfade": 6
+    },
+    {
+      "id": 6,
+      "a": 837,
+      "b": 964,
+      "light": "day",
+      "set": "clock_tower",
+      "xfade": 6
+    },
+    {
+      "id": 7,
+      "a": 964,
+      "b": 1092,
+      "light": "golden",
+      "set": "hillside_days",
+      "xfade": 8
+    },
+    {
+      "id": 8,
+      "a": 1092,
+      "b": 1279,
+      "light": "golden",
+      "set": "river_bridge_sunset",
+      "xfade": 6
+    },
+    {
+      "id": 9,
+      "a": 1279,
+      "b": 1433,
+      "light": "dusk",
+      "set": "firefly_acacia",
+      "xfade": 8
+    },
+    {
+      "id": 10,
+      "a": 1433,
+      "b": 1753,
+      "light": "storm",
+      "set": "siren_sky_fade",
+      "xfade": 6
+    },
+    {
+      "id": 11,
+      "a": 1753,
+      "b": 1911,
+      "light": "interior",
+      "set": "vintage_library",
+      "xfade": 6
+    },
+    {
+      "id": 12,
+      "a": 1911,
+      "b": 2055,
+      "light": "interior",
+      "set": "photo_reveal",
+      "xfade": 0
+    },
+    {
+      "id": 13,
+      "a": 2055,
+      "b": 2340,
+      "light": "dusk",
+      "set": "cliffhanger_rift",
+      "xfade": 6
+    }
+  ],
+  "flashes": [
+    {
+      "f": 96,
+      "dur": 6
+    },
+    {
+      "f": 226,
+      "dur": 4
+    },
+    {
+      "f": 1656,
+      "dur": 4
+    },
+    {
+      "f": 2152,
+      "dur": 5
+    }
+  ],
+  "kicks": [
+    [
+      94,
+      0.28
+    ],
+    [
+      1655,
+      0.14
+    ],
+    [
+      1991,
+      0.16
+    ],
+    [
+      2061,
+      0.24
+    ],
+    [
+      2102,
+      0.22
+    ],
+    [
+      2150,
+      0.26
+    ]
+  ],
+  "events": {
+    "F_CAR_APPROACH": 26,
+    "F_CAR_IMPACT": 96,
+    "F_WAKE_UP": 122,
+    "F_NO_SCRATCH": 194,
+    "F_NO_AMBULANCE": 234,
+    "F_NO_CITY": 274,
+    "F_WATCH_STOP": 322,
+    "F_KALESA": 450,
+    "F_OLD_HOUSES": 480,
+    "F_QUIET_PLAZA": 542,
+    "F_LOOK_AROUND": 574,
+    "F_CLARA_APPEAR": 620,
+    "F_OKAY_KA_LANG": 683,
+    "F_CLARA_NAME": 714,
+    "F_TOWN_WALK": 762,
+    "F_NOTICE_CLOCK": 847,
+    "F_CLOCK_FROZEN": 883,
+    "F_DAYS_PASS": 988,
+    "F_MONTHS_STAY": 1034,
+    "F_RIVER_WALK": 1132,
+    "F_BRIDGE_SUNSET": 1170,
+    "F_TREE_LAUGH": 1218,
+    "F_FALL_IN_LOVE": 1321,
+    "F_STAY_FOREVER": 1396,
+    "F_SKY_SIREN": 1505,
+    "F_HEART_MACHINE": 1528,
+    "F_HOLD_HAND": 1605,
+    "F_HAND_GLOW": 1655,
+    "F_FADE_SMOKE": 1700,
+    "F_LIBRARY_FIND": 1810,
+    "F_OLD_PHOTO": 1839,
+    "F_PHOTO_CLARA": 1928,
+    "F_PHOTO_BACK": 1989,
+    "F_ROAD_QUAKE": 2061,
+    "F_LIGHT_OPEN": 2102,
+    "F_HEADLIGHT_GLARE": 2150,
+    "F_WHO_IS_CLARA": 2210,
+    "F_IS_MATEO_ALIVE": 2250,
+    "F_PART_TWO": 2276
+  }
+}
